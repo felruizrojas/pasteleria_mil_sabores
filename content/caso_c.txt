@@ -1,0 +1,156 @@
+Requerimientos Funcionales:
+-------------------------------------------------------------------------------------------
+REQUERIMIENTOS FUNCIONALES:
+-------------------------------------------------------------------------------------------
+
+• Registro y Autenticación de Usuarios:
+    o Implementar un sistema de registro que permita a usuarios mayores de 50 años
+    recibir un descuento del 50% en todos los productos.
+    o Ofrecer un descuento del 10% de por vida para usuarios que se registren con el
+    código "FELICES50".
+    o Proveer tortas gratis para estudiantes de Duoc en su cumpleaños al registrarse con
+    su correo institucional.
+
+• Gestión de Perfiles de Usuario:
+    o Permitir a los usuarios actualizar su información personal y gestionar sus
+    preferencias de compra.
+
+• Visualización de Catálogo de Productos:
+    o Mostrar un catálogo extenso de productos, con opciones de filtrado por tipo de
+    torta (cuadrada o circular) y diferentes tamaños.
+    o Incluir detalles de personalización para cada torta, permitiendo añadir mensajes
+    especiales.
+
+• Funcionalidad del Carrito de Compras:
+    o Habilitar la gestión del carrito de compras, con opciones para agregar, eliminar y
+    modificar productos.
+    o Mostrar un resumen del carrito con precios detallados y totales.
+
+• Procesamiento y Seguimiento de Pedidos:
+    o Facilitar la confirmación de pedidos y la generación de boletas.
+    o Proveer notificaciones de estado de pedido desde la preparación hasta la entrega.
+
+• Gestión de Envíos:
+    o Ofrecer seguimiento de envíos en tiempo real y permitir la selección de fechas de
+    entrega preferidas.
+
+• Promoción de Productos:
+    o Integrar funcionalidades para que los usuarios compartan tortas y promociones en
+    redes sociales.
+
+-------------------------------------------------------------------------------------------
+DESEOS PARA LA PÁGINA WEB
+-------------------------------------------------------------------------------------------
+
+• Diseño Atractivo e Intuitivo:
+    o Crear un diseño que refleje la tradición y calidad de la pastelería, con un enfoque
+    en la nostalgia y la historia de la marca.
+
+• Contenido Educativo y de Comunidad:
+    o Incluir blogs y noticias sobre repostería, recetas, y consejos de los estudiantes de
+    gastronomía de Duoc.
+
+• Integración con Redes Sociales:
+    o Facilitar el compartir productos y promociones en redes sociales.
+
+• Búsqueda Avanzada:
+    o Ofrecer herramientas de búsqueda con opciones de filtrado para encontrar
+    productos específicos rápidamente.
+
+
+
+-------------------------------------------------------------------------------------------
+PROPUESTA DE DISEÑO
+-------------------------------------------------------------------------------------------
+
+COLORES:
+
+❖ Color de Fondo Principal:
+    o Crema Pastel (#FFF5E1) para un ambiente cálido y acogedor.
+❖ Colores de Acento:
+    o Rosa Suave (#FFC0CB) y Chocolate (#8B4513) para botones y elementos
+    interactivos, evocando dulzura y tradición.
+
+
+TIPOGRAFÍA:
+
+❖ Fuente Principal:
+    o Lato, una fuente sans-serif moderna y legible para todo el texto general.
+    o https://fonts.google.com/specimen/Lato
+❖ Fuente de Encabezado:
+    o Pacifico, una fuente cursiva que resalta los títulos y encabezados con un toque
+    artístico.
+    o https://fonts.google.com/specimen/Pacifico
+
+
+COLORES DE TEXTO:
+
+❖ Texto Principal:
+    o Marrón Oscuro (#5D4037) para asegurar un buen contraste sobre el fondo claro.
+❖ Texto Secundario:
+    o Gris Claro (#B0BEC5) para descripciones y texto secundario.
+
+
+INFORMACIÓN EXTRA PARA EL USUARIO
+
+❖ Origen de productos:
+    o Detallar la historia y origen de las recetas tradicionales.
+❖ Recomendaciones personalizadas:
+    o Ofrecer sugerencias de productos basadas en el historial de compras y las
+    preferencias del usuario.
+❖ Sección de Impacto Comunitario:
+    o Resaltar cómo las compras apoyan a los estudiantes de gastronomía y la comunidad
+    local.
+
+-------------------------------------------------------------------------------------------
+CATEGORÍAS Y PRODUCTOS
+-------------------------------------------------------------------------------------------
+
+LISTADO DE CATEGORIAS:
+• Tortas Cuadradas
+• Tortas Circulares
+• Postres Individuales
+• Productos Sin Azúcar
+• Pastelería Tradicional
+• Productos sin gluten
+• Productos Vegana
+• Tortas Especiales
+
+
+DETALLE DE PRODUCTOS (EJEMPLO):
+---> VER IMAGEN
+
+
+DESCRIPCIONES DE LOS PRODUCTOS:
+• Torta Cuadrada de Chocolate: Deliciosa torta de chocolate con capas de ganache y un toque
+de avellanas. Personalizable con mensajes especiales.
+• Torta Cuadrada de Frutas: Una mezcla de frutas frescas y crema chantilly sobre un suave
+bizcocho de vainilla, ideal para celebraciones.
+• Torta Circular de Vainilla: Bizcocho de vainilla clásico relleno con crema pastelera y cubierto
+con un glaseado dulce, perfecto para cualquier ocasión.
+• Torta Circular de Manjar: Torta tradicional chilena con manjar y nueces, un deleite para los
+amantes de los sabores dulces y clásicos.
+• Mousse de Chocolate: Postre individual cremoso y suave, hecho con chocolate de alta
+calidad, ideal para los amantes del chocolate.
+• Tiramisú Clásico: Un postre italiano individual con capas de café, mascarpone y cacao,
+perfecto para finalizar cualquier comida.
+• Torta Sin Azúcar de Naranja: Torta ligera y deliciosa, endulzada naturalmente, ideal para
+quienes buscan opciones más saludables.
+• Cheesecake Sin Azúcar: Suave y cremoso, este cheesecake es una opción perfecta para
+disfrutar sin culpa.
+• Empanada de Manzana: Pastelería tradicional rellena de manzanas especiadas, perfecta
+para un dulce desayuno o merienda.
+• Tarta de Santiago: Tradicional tarta española hecha con almendras, azúcar, y huevos, una
+delicia para los amantes de los postres clásicos.
+• Brownie Sin Gluten: Rico y denso, este brownie es perfecto para quienes necesitan evitar
+el gluten sin sacrificar el sabor.
+• Pan Sin Gluten: Suave y esponjoso, ideal para sándwiches o para acompañar cualquier
+comida.
+• Torta Vegana de Chocolate: Torta de chocolate húmeda y deliciosa, hecha sin productos de
+origen animal, perfecta para veganos.
+• Galletas Veganas de Avena: Crujientes y sabrosas, estas galletas son una excelente opción
+para un snack saludable y vegano.
+• Torta Especial de Cumpleaños: Diseñada especialmente para celebraciones, personalizable
+con decoraciones y mensajes únicos.
+• Torta Especial de Boda: Elegante y deliciosa, esta torta está diseñada para ser el centro de
+atención en cualquier boda.
