@@ -26,8 +26,7 @@
     </header>
 
     <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-        <!-- shadow-sm esto da una sombra debajo del nav, se ve bien-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top"> <!-- shadow-sm esto da una sombra debajo del nav, se ve bien-->
         <div class="container-fluid">
             <!-- Logo -->
             <a class="navbar-brand d-flex align-items-center" href="/index.html">
@@ -96,14 +95,10 @@
                         <a class="btn btn-outline-dark w-100" href="/pages/nosotros.html" target="_blank">Nosotros</a>
                         <a class="btn btn-outline-dark w-100" href="/pages/carta.html" target="_blank">Carta</a>
                         <a class="btn btn-outline-dark w-100" href="/pages/blog.html" target="_blank">Blog</a>
-                        <a class="btn btn-outline-dark w-100" href="https://www.instagram.com/pasteleria1000sabores"
-                            target="_blank">Instagram</a>
-                        <a class="btn btn-outline-dark w-100" href="/pages/carrito.html" target="_blank">Carrito de
-                            Compra</a>
-                        <a class="btn btn-outline-dark w-100" href="/pages/pedidos.html" target="_blank">Comprar
-                            ahora</a>
-                        <a class="btn btn-outline-dark w-100" href="/pages/login.html" target="_blank">Iniciar
-                            sesión</a>
+                        <a class="btn btn-outline-dark w-100" href="https://www.instagram.com/pasteleria1000sabores" target="_blank">Instagram</a>
+                        <a class="btn btn-outline-dark w-100" href="/pages/carrito.html" target="_blank">Carrito de Compra</a>
+                        <a class="btn btn-outline-dark w-100" href="/pages/pedidos.html" target="_blank">Comprar ahora</a>
+                        <a class="btn btn-outline-dark w-100" href="/pages/login.html" target="_blank">Iniciar sesión</a>
                     </div>
                 </div>
             </div>

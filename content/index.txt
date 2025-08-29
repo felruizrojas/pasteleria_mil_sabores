@@ -113,59 +113,7 @@
     <!-- Cuerpo principal -->
     <main class="mt-5">
         <section>
-            <!-- Carousel -->
-            <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-                <!-- Indicators/dots -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                </div>
-
-                <!-- The slideshow/carousel -->
-                <div class="carousel-inner">
-                    <!-- Carrusel carta -->
-                    <div class="carousel-item active">
-                        <img src="/img/carrusel/carrusel_carta.jpg" alt="Torta con frutas" class="d-block w-100"
-                            style="height:550px; object-fit:cover;">
-                        <div class="carousel-caption">
-                            <a href="/pages/carta.html" class="btn btn-dark btn-sm px-4 py-2 fs-6">
-                                Ver carta
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Carrusel nosotros -->
-                    <div class="carousel-item active">
-                        <img src="/img/carrusel/carrusel_nosotros.jpg" alt="Vitrina de pastelería" class="d-block w-100"
-                            style="height:550px; object-fit:cover;">
-                        <div class="carousel-caption">
-                            <a href="/pages/nosotros.html" class="btn btn-dark btn-sm px-4 py-2 fs-6">
-                                Conócenos
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Carrusel blog -->
-                    <div class="carousel-item active">
-                        <img src="/img/carrusel/carrusel_blog.jpg" alt="Persona usando laptop" class="d-block w-100"
-                            style="height:550px; object-fit:cover;">
-                        <div class="carousel-caption">
-                            <a href="/pages/blog.html" class="btn btn-dark btn-sm px-4 py-2 fs-6">
-                                Visitar blog
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Left and right controls/icons -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-            </div>
         </section>
     </main>
 
