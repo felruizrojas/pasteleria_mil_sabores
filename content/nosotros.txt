@@ -1,0 +1,49 @@
+
+    <!-- Cuerpo principal -->
+    <main class="mt-5">
+        <section>
+            <div class="container mt-3">
+
+                <div class="mt-4 p-5 bg-white text-dark rounded">
+                    <h1>Quiénes Somos</h1>
+                    <p>En Pastelería 1000 Sabores celebramos 50 años de historia endulzando momentos únicos y siendo un
+                        referente de la repostería chilena. Desde nuestro inolvidable récord Guinness en 1995, cuando
+                        colaboramos en la creación de la torta más grande del mundo, hemos mantenido la tradición de
+                        innovar y
+                        sorprender con cada creación.</p>
+                    <p>Hoy renovamos nuestro sistema de ventas online para que nuestros clientes disfruten de una
+                        experiencia de compra moderna, fácil y accesible, llevando la dulzura directamente a sus
+                        hogares.</p>
+                </div>
+
+                <div class="mt-4 p-5 bg-white text-dark rounded">
+                    <h1 class="text-end">Misión</h1>
+                    <p>Ofrecer una experiencia dulce y memorable a nuestros clientes, proporcionando tortas y productos
+                        de
+                        repostería de alta calidad para todas las ocasiones, mientras celebramos nuestras raíces
+                        históricas y
+                        fomentamos la creatividad en la repostería.</p>
+                </div>
+
+                <div class="mt-4 p-5 bg-white text-dark rounded">
+                    <h1>Visión</h1>
+                    <p>Convertirnos en la tienda online líder de productos de repostería en Chile, conocida por nuestra
+                        innovación, calidad y el impacto positivo en la comunidad, especialmente en la formación de
+                        nuevos
+                        talentos en gastronomía.</p>
+                </div>
+
+                <div class="mt-4 p-5 bg-white text-dark rounded">
+                    <h1 class="text-end">Impacto Comunitario</h1>
+                    <p>Cada compra en Pastelería 1000 Sabores apoya a estudiantes de gastronomía y a la comunidad local,
+                        contribuyendo a que nuevas generaciones de reposteros sigan creando y compartiendo su arte.</p>
+                </div>
+
+                <div class="mt-4 p-5 bg-white text-dark rounded text-center">
+                    <h3>¡Celebra la dulzura de la vida con Pastelería 1000 Sabores!</h3>
+                    <h5>Estamos emocionados de compartir nuestras delicias contigo.</h5>
+                    <h5>Descubre, saborea y crea momentos inolvidables con nosotros.</h5>
+                </div>
+            </div>
+        </section>
+    </main>
