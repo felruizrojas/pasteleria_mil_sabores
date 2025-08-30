@@ -35,10 +35,26 @@
             <form id="registerForm" class="needs-validation" method="post" novalidate>
                 <!-- Nombre -->
                 <div class="mb-3">
-                    <label for="name" class="form-label">Nombre y apellido</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Ej: María Pérez" required
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Ej: María" required
                         minlength="3">
                     <div class="invalid-feedback">Ingresa tu nombre (mínimo 3 caracteres).</div>
+                </div>
+
+                <!-- Apellido Paterno-->
+                <div class="mb-3">
+                    <label for="apellidoPaterno" class="form-label">Apellido Paterno</label>
+                    <input type="text" class="form-control" id="apellidoPaterno" name="apellidoPaterno"
+                        placeholder="Ej: Pérez" required minlength="3">
+                    <div class="invalid-feedback">Ingresa tu apellido (mínimo 3 caracteres).</div>
+                </div>
+
+                <!-- Apellido Materno-->
+                <div class="mb-3">
+                    <label for="apellidoMaterno" class="form-label">Apellido Materno</label>
+                    <input type="text" class="form-control" id="apellidoMaterno" name="apellidoMaterno"
+                        placeholder="Ej: González" required minlength="3">
+                    <div class="invalid-feedback">Ingresa tu apellido (mínimo 3 caracteres).</div>
                 </div>
 
                 <!-- Email -->
@@ -84,8 +100,13 @@
                 <!-- Confirmar contraseña -->
                 <div class="mb-3">
                     <label for="confirmPassword" class="form-label">Confirmar contraseña</label>
-                    <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"
-                        placeholder="Repite tu contraseña" required>
+                    <div class="input-group">
+                        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"
+                            placeholder="Repite tu contraseña" required>
+                        <button class="btn btn-outline-secondary" type="button" id="togglePassword">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                    </div>
                     <div class="invalid-feedback">Las contraseñas deben coincidir.</div>
                 </div>
 
