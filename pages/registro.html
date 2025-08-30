@@ -93,7 +93,7 @@
                 <div class="form-check mb-3">
                     <input class="form-check-input" type="checkbox" value="1" id="terms" required>
                     <label class="form-check-label" for="terms">
-                        Acepto los <a href="../terminos.html" class="link-primary">términos y condiciones</a>.
+                        Acepto los <a href="terminos.html" class="link-primary">términos y condiciones</a>.
                     </label>
                     <div class="invalid-feedback">Debes aceptar los términos para continuar.</div>
                 </div>
@@ -126,52 +126,6 @@
             </div>
         </div>
     </main>
-
-    <!-- Script: Validación y control de envío (sin backend) -->
-    <script>
-        (function () {
-            const form = document.getElementById('registerForm');
-            const pass = document.getElementById('password');
-            const pass2 = document.getElementById('confirmPassword');
-            const toggle = document.getElementById('togglePassword');
-
-            // Mostrar/ocultar contraseña
-            toggle?.addEventListener('click', () => {
-                const isPwd = pass.type === 'password';
-                pass.type = isPwd ? 'text' : 'password';
-                toggle.innerHTML = isPwd ? '<i class="bi bi-eye-slash"></i>' : '<i class="bi bi-eye"></i>';
-            });
-
-            // Validación “coinciden”
-            const checkMatch = () => {
-                if (pass2.value && pass.value !== pass2.value) {
-                    pass2.setCustomValidity('no-match');
-                } else {
-                    pass2.setCustomValidity('');
-                }
-            };
-            pass.addEventListener('input', checkMatch);
-            pass2.addEventListener('input', checkMatch);
-
-            // Validación Bootstrap + evitar 404
-            form.addEventListener('submit', (e) => {
-                e.preventDefault();
-                form.classList.add('was-validated');
-                checkMatch();
-
-                if (!form.checkValidity()) return;
-
-                // Aquí iría tu fetch() a un backend real.
-                // Mientras, “simulamos” éxito:
-                // 1) Muestra un mensaje simple
-                alert('¡Registro simulado con éxito! (sin backend)');
-
-                // 2) Redirigir a la home o al login
-                // window.location.href = '../index.html';
-                window.location.href = 'login.html';
-            });
-        })();
-    </script>
 </body>
 
 </html>
